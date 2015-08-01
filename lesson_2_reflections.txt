@@ -1,3 +1,26 @@
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: Staging area is where you add files when you finished working on them to test pages before committing them. It allows you to submit files one at a time, have more control and test before committing.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Staging you can control what files you add into their by using 'git add' therefore if a change is logical for only 1 file, you would only add that to the committ area.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches would be helpful if you want to do an experimental change but not committ it to the master or perhaps create another language version or change styles, etc. However, you would still have the master to show your friends if people want to see what you are working on and don't want to people to see what you are experimenting on. Branches are also good to work with yourself - make you compartmentalize what you are work e.g. to focus on a bug, or a feature, or a style.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: Diagrams help you understand where new branches have been committed and where to go back to find changes. Also tell you what has changed to the master since that other branch began.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging the branches together add the change that were different in both documents into one document. It goes back to the parent then compares throughout to see what has changed. Anything changed is then merged and added in the final. The diagram allows you to see the tip of the branch, where it merged and which branches may have come unreachable since the commit of the merge.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros - Git merges the files quickly and compares what's different and then takes all differences and merges into one. It may cause conflicts if an area of code has been amended in both files and then you have to take the time to resolve it. Cons: It can take time to understand and resolve conflict, you may not want all the changes to pull through from one of your branches. Just a particular area. That is why though you would compartmentalize.
+
+
+
