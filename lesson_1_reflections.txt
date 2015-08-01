@@ -1,0 +1,29 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: The command in Git Bash is 'diff -u' - the -u makes it into a unified format that is easier to read on the command line
+
+You follow that command with the new two files you want to compare. The oldest one first.
+
+The minus sign (-) means things that are in the old file and not the new
+The plus sign (+) is the opposite. Things in the new and not the old
+
+It then shows you all the differences, meaning you won't have to spend hours going through the code. Helpful on big projects to spot a mistake. Automates the process for you.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Means you can go back and see all the changes that have been made. You can revert to any state if you need to go back. Or copy in old bits of code into the latest version if the client wants it.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros:
+You committ when you think is logical
+You know exactly what changes have been made. You are allowed to leave a message
+Cons:
+You may not save often enough or too often
+You have to think more to decide whe n you think it is logical
+
+Q:Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Some changes in HTML/CSS/Java projects will have changes that affect all 3 documents and therefore you may want to committ these all at once. However, Google docs only allows one as these changes are probably independent to any other doc. They are unique changes like a change in a section of a script for a play. It wouldn't make sense to save all chapters together.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Git log allows you to see all the versions of the files. Git diff allows you to compare the changes in certain files. The plus showing additions and negatives showing what was deleted in the more recent version. 'Git log --stat' shows you stats against the last version i.e. number of insertions and deletions. REMEMBER: Press Q to quit out of git log or gif diff
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Obviously it makes it easier to get back and check files to see where it was working and then compare the two files and see why it has broken using 'git checkout' and then 'git diff'
