@@ -1,2 +1,19 @@
-When would you want to use a remote repository rather than keeping all your work local?
-When working on another computer or device. Or when working with other people because it is accessible for everyone to work and commit changes.
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: When working on another computer or device. Or when working with other people because it is accessible for everyone to work and commit changes.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A: You may have experimental features that you are working in your remote repository that you are working on and are different to the changes that have made on GitHub. GitHub is an open network and anyone can make changes (if you have allowed them as the owner), meaning their changes that they pushed to GitHub could be different to the ones you are working and you may not want them to override your changes.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Fork: Is copying a repository only on GitHub
+Clone: Is copying a respoitory from GitHub to local or local to local
+Branch: Is another version of the master file. Branches allow you to make changes and experiment without affecting the master
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: Benefit means you can add other people's changes into the remote version from GitHub and then check how it is different to your local master and possibily merge the changes if you want to to.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: You could use screenshare via Skype or instant messenger and then have a shared cloud directory and then a version of it stored locally before making any changes. This solution is more difficult because it requires you setting up meetings to go through changes at a similar time.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: When you are experimenting on a new feature that you want incoporate. Or if you are working an individual section of the website and you don't want it to affect the master yet as the changes haven't been approved and shouldn't be live for consumers yet.
