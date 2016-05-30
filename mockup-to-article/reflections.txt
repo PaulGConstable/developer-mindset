@@ -1,0 +1,23 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+# What new skills have you learned?
+
+HTML markup and the power of it! It’s the fundamentals, the building blocks, for starting to design a website. Here’s an [awesome resource](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) if you want to find out more.
+
+# What has been easy?
+
+Using the MDN element reference made it easy to look up basic HTML elements. It gave a definition of what they did, which made it easy to decide, test and investigate if it is in fact the correct tag I was after.
+
+# What has been difficult?
+
+Trying to remember all the HTML elements. I guess that’s why Google and the resource linked to above is useful, right?
+
+# How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+See above. I’ve googled, I’ve used the [MDN element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) recommended by the Udacity tutors and mentors. It’s a start, but we all know there is plenty more to come!
